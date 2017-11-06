@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.container{
+			width: 1130px;
+			height: 300px;
+			margin: 20px auto;
+			position: relative;
+			overflow: hidden;
+		}
+		.container ul li{
+			width: 1130px;
+			height: 300px;
+			list-style: none;
+			position: absolute;
+		}
+		.container ul li img{
+			width: 100%;
+			height: 100%;
+		}
+		.btn{
+			width: 100%;
+			position: absolute;
+			bottom: 0;
+			height: 40px;
+			background: rgba(0,0,0,.3);
+			color: #fff;
+			line-height: 40px;
+			text-align: center;
+			z-index: 9999;
+		}
+
+		.btn span{
+			display: block;
+			height: 40px;
+			width: 25%;
+			float: left;
+			box-sizing: border-box;
+			border-right: 2px solid rgba(0,0,0,.8)
+		}
+		.btn span.active{
+			background: rgba(0,80,100,.8);
+
+		}
+
+		.container input[type=button]{
+			width: 50px;
+			height: 40px;
+			background:rgba(0,0,0,0.4);
+			border: none;
+			color: #fff;
+			position: absolute;
+			z-index: 999;
+			top: 50%;
+			margin-top: -20px;
+		}
+
+		.container #right{
+			right: 0;
+		}
+
+
+
+	</style>
+</head>
+<body>
+	
+	<div class="container" id="container1">
+		<ul>
+			<li><img src="http://img.zcool.cn/community/0148e459bf3144a801207534eb1689.jpg@1380w" alt=""></li>
+			<li><img src="http://img.zcool.cn/community/01380e59bf3152a80120753433b650.jpg@1380w" alt=""></li>
+			<li><img src="http://img.zcool.cn/community/01dcc659bf23cba801212fb7902b2c.jpg@1380w" alt=""></li>
+			<li><img src="http://img.zcool.cn/community/01edea59bf2567a801212fb7c0b203.jpg@1380w" alt=""></li>
+		</ul>
+	
+		<div class="btn">
+			<span class="active">1</span>
+			<span>2</span>
+			<span>3</span>
+			<span>4</span>
+		</div>
+
+	</div>
+
+	<div class="container" id="container2"> 
+		<ul>
+			<li><img src="http://img.zcool.cn/community/0148e459bf3144a801207534eb1689.jpg@1380w" alt=""></li>
+			<li><img src="http://img.zcool.cn/community/01380e59bf3152a80120753433b650.jpg@1380w" alt=""></li>
+			<li><img src="http://img.zcool.cn/community/01dcc659bf23cba801212fb7902b2c.jpg@1380w" alt=""></li>
+			<li><img src="http://img.zcool.cn/community/01edea59bf2567a801212fb7c0b203.jpg@1380w" alt=""></li>
+		</ul>
+	
+		<div class="btn">
+			<span class="active">1</span>
+			<span>2</span>
+			<span>3</span>
+			<span>4</span>
+		</div>
+
+		<input type="button" id="left" value="<<<<<">
+		<input type="button" id="right" value=">>>>>">
+
+	</div>
+
+</body>
+<script type="text/javascript" src="http://libs.baidu.com/jquery/1.11.3/jquery.js"></script>
+<script src="jquery.banner.js"></script>
+<script>
+	$(function(){
+		//策略模式;
+			//参数; opts;
+		$("#container1").banner({
+			imgs:$("#container1 ul li"),
+			items:$("#container1 .btn").children()
+		});
+		$("#container2").banner({
+			imgs:$("#container2 ul li"),
+			items:$("#container2 .btn").children(),
+			left:$("#left"),
+			right:$("#right")
+		});
+	})
+</script>
+
+</html>

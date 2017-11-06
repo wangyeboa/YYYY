@@ -1,0 +1,88 @@
+.head{width:100%;}
+.head_inner{width: 1100px;height:60px;margin:0 auto;padding: 30px 0;}
+.main_inner{width: 1100px;margin:0 auto;padding: 30px 0;}
+.head_inner1{float: left;}
+.head_inner2{float: right;}
+.head_inner2>li{float: left;line-height: 60px;}
+.head_inner2>li:nth-child(2){width: 1px;height: 14px;background: #666666;margin-top: 24px;margin-left: 15px;margin-right: 15px;}
+.head_inner2>li>a{color: #666666;}
+
+
+
+.main{background: url("https://img1.epetbar.com/2017-09/21/11/0ee4944f67c53ba3bf7c4017687688b1.jpg");height: 628px;background-position: -330px 0 ;}
+
+
+.main_inner{position: relative;}
+.main_inner1{position:absolute;width: 296px;top: 70px;right: 164px;padding: 0px 36px 30px;background: rgb(255, 255, 255);}
+
+
+.box{overflow: hidden;}
+.box1{border-bottom: 1px solid rgb(51, 203, 152);height: 67px;line-height: 80px;width: 50%;display: block;float: left;text-align: center;font-size: 14px;color: #000000;}
+.box2{height: 67px;line-height: 80px;width: 50%;border-bottom: 1px solid rgb(221, 221, 221);display: block;float: left;text-align: center;font-size: 14px;color: #999999;}   
+
+.uoser{margin-top: 20px;border: 1px solid #dddddd;height: 45px;}
+.uoser>input{height: 42px;border: 0;outline:none;width: 224px;float: left;}
+
+.uoser>span{background: url("https://static.epetbar.com/passport/new/images/ico.png");width: 23px;height: 19px;vertical-align: middle;background-position: 0px 0px;display: inline-block;float: left;margin-top: 12px;margin-right: 12px;margin-left: 15px;}
+
+.passer{margin-top: 20px;border: 1px solid #dddddd;height: 45px;}
+.passer>input{height: 42px;border: 0;outline:none;width: 224px;float: left;}
+.passer>span{background: url("https://static.epetbar.com/passport/new/images/ico.png");width: 23px;height: 19px;vertical-align: middle;background-position: 0px -28px;display: inline-block;float: left;margin-top: 12px;margin-right: 12px;margin-left: 15px;}
+
+.logon{margin-top: 23px;}
+.logon>li{float: left;color: #666666;}
+.logon>li:nth-child(3){float: right;}
+
+.logon1>a{width:296px ;height: 50px;background: #33cb98;color: #fff;text-align: center;line-height: 50px;display: block;margin-top: 60px;border-radius: 5px;font-size: 18px;position: relative;}
+
+.logon2{margin-top: 20px;overflow: hidden;}
+.logon2>li{float: left;}
+.logon2>li:nth-child(2){float: right;}
+
+.logon3{overflow: hidden;}
+.logon3>li{float: left;}
+.logon3>li:nth-child(1){background: url("https://static.epetbar.com/passport/new/images/ico.png");background-position: 0px -83px;width: 23px;height: 19px;margin-top: 24px;}
+.logon3>li:nth-child(2){background: url("https://static.epetbar.com/passport/new/images/ico.png");background-position: 0px -112px;width: 23px;height: 19px;margin-top: 24px;}
+.logon3>li:nth-child(3){background: url("https://static.epetbar.com/passport/new/images/ico.png");background-position: 0px -140px;width: 23px;height: 19px;margin-top: 24px;}
+
+
+
+
+.logon>li>a:hover{color: #00a0e9;}
+.logon2>li>a:hover{color: #00a0e9;}
+.head_inner2>li>a:hover{color: #00a0e9;}
+
+
+.bottom_inner{width: 820px;padding: 70px 0;margin: 0 auto;text-align: center;}
+.bottom_inner>a{color: #999999;}
+.bottom_inner>p{color: #999999;}
+
+
+
+
+
+
+.phone{margin-top: 20px;border: 1px solid #dddddd;height: 45px;}
+.phone>input{height: 42px;border: 0;outline:none;width: 224px;float: left;}
+.phone>span{background: url("https://static.epetbar.com/passport/new/images/login_ico.png");width: 20px;height: 19px;vertical-align: middle;background-position: 2px -37px;display: inline-block;float: left;margin-top: 12px;margin-right: 12px;margin-left: 15px;}
+
+
+.Code{margin-top: 20px;border: 1px solid #dddddd;height: 45px;width: 195px;}
+.Code>input{height: 42px;border: 0;outline:none;width: 145px;float: right;display: block;}
+.Code>span{background: url("https://static.epetbar.com/passport/new/images/login_ico.png");width: 20px;height: 19px;vertical-align: middle;background-position: 2px -68px;display: inline-block;float: left;margin-top: 12px;margin-right: 12px;margin-left: 15px;}
+.Code>a{background: url("https://passport.epet.com/share/seccode.html?hash=2257&height=47&width=100&name=login_seccode");
+width: 100px;height: 47px;display: block;margin-left: 198px;margin-top: -1px;}
+
+
+
+.Code1{margin-top: 20px;border: 1px solid #dddddd;height: 45px;width: 195px;}
+.Code1>input{height: 42px;border: 0;outline:none;width: 145px;float: right;display: block;}
+.Code1>span{background: url("https://static.epetbar.com/passport/new/images/login_ico.png");width: 20px;height: 19px;vertical-align: middle;background-position: 2px -11px;display: inline-block;float: left;margin-top: 12px;margin-right: 12px;margin-left: 15px;}
+.Code1>a{width: 100px;height: 46px;display: block;margin-left: 198px;margin-top: -1px;border-radius: 5px;text-align: center;line-height: 46;border: 1px solid #33cb98;position: relative;margin-top: -1px;}
+.Code1>a>span{position: absolute;top:-253px;left: 0;width: 100px;height: 46px;display: block;}
+
+.Code1>a:hover{background: #33cb98;}
+.Code1>a:hover span{color: #fff;}
+
+.main_inner2{display: block;}
+.main_inner3{display: none;}

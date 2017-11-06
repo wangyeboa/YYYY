@@ -1,0 +1,134 @@
+.head{width: 100%;}
+.head_inner,.top_inner,.nav_inner,.banner_inner,.main_inner,.bottom_inner{width:1200px;margin: 0 auto;}
+
+
+
+
+
+/* head */
+.head{background:#f5f5f5;border-bottom: 1px solid #dddddd;}
+.head_inner1{float:left;overflow: hidden;}
+/* head1 */
+.head_inner1>li{float:left;}
+.head_inner1>li:nth-child(1)>b{width: 13px;height: 12px;display: block;float: left;margin-top:7px;}
+.head_inner1>li:nth-child(1)>a{margin-left:5px;display: block;float: left;font-size: 11px;color: #666666;line-height: 28px;}
+
+.head_inner1>li:nth-child(2){line-height: 28px;margin-left: 21px;}
+.head_inner1>li:nth-child(2)>a{color: #666666;font-size: 11px;}
+
+.head_inner1>li:nth-child(3){margin-left: 20px;}
+.head_inner1>li:nth-child(3)>b{width: 13px;height: 12px;display: block;float: left;margin-top:8px;}
+.head_inner1>li:nth-child(3)>a{margin-left:5px;display: block;float: left;font-size: 11px;color: #666666;line-height: 28px;}
+
+.head_inner1>li:nth-child(4){line-height: 28px;margin-left: 10px;}
+.head_inner1>li:nth-child(4)>a{color: #666666;display: block;font-size: 11px;}
+.head_inner1>li:nth-child(4)>a>span{color: #ff6600;font-size: 11px;}
+
+/* head2 */
+.head_inner2{float: right;}
+.head_inner2>li{float:left;}
+
+.head_inner2>li:nth-child(1){line-height: 28px;}
+.head_inner2>li:nth-child(1)>a{color: #666666;font-size: 11px;}
+
+.head_inner2>li:nth-child(2){line-height: 28px;margin-left: 14px;}
+.head_inner2>li:nth-child(2)>a{color: #666666;font-size: 11px;}
+
+.head_inner2>li:nth-child(3){margin-left: 13px;}
+.head_inner2>li:nth-child(3)>i{line-height: 28px;font-size: 12px;}
+.head_inner2>li:nth-child(3)>a{color: #666666;font-size: 11px;}
+.head_inner2>li:nth-child(3)>a>span{color: #ff0000;}
+
+.head_inner2>li:nth-child(4){margin-left: 13px;line-height: 28px;overflow: hidden;}
+.head_inner2>li:nth-child(4)>i{font-size: 12px;color: #717171;display: block;float: left;}
+.head_inner2>li:nth-child(4)>a{display: block;float: left;font-size: 11px;color: #666666;margin-left: 5px;margin-right: 5px;}
+
+.head_inner2>li:nth-child(5){margin-left: 13px;line-height: 28px;overflow: hidden;}
+.head_inner2>li:nth-child(5)>i{font-size: 12px;color: #717171;display: block;float: left;}
+.head_inner2>li:nth-child(5)>a{display: block;float: left;font-size: 11px;color: #666666;margin-left: 5px;margin-right: 5px;}
+
+
+.head_inner2>li:nth-child(6)>b{width: 13px;height: 12px;display: block;float: left;margin-top:8px;margin-left: 15px;}
+.head_inner2>li:nth-child(6)>a{display: block;float: left;font-size: 11px;color: #666666;line-height: 28px;margin-right: 15px;}
+.head_inner2>li:nth-child(7)>a>span{line-height: 28px;font-size:11px ;color: #ff0000;}
+
+
+
+/*  二级导航     */
+
+.head_inner1_a{width:410px;height: 295px;border: 1px solid #dddddd;position: absolute;background: #FFFFFF;box-sizing:border-box ;padding-left: 5px;padding-top:10px;overflow: hidden;display: none;}
+.head_inner1_a>ul>li{float: left;}
+.head_inner1_a>ul>li:nth-child(1){width:40px;height: 16px;border-right: 1px dashed #e8e8e8;}
+.head_inner1_a>div{float: left;width: 70px;height:25px;border: 1px solid #dddddd;border-bottom: 0;text-align: center;line-height: 25px;}
+.head_inner1_a>div:nth-child(2){width:3px ;border: 0;border-bottom: 1px solid #dddddd;}
+
+
+.head_inner2_a{width: 100px;height: 72px;background: #fff;border: 1px solid #dddddd;border-top: 0;position: absolute;padding-left: 11px;padding-top: 7px;box-shadow: 3px 3px 10px #909090;display: none;}
+.head_inner2_a>li{line-height: 21px;}
+
+.head_inner2_b{width: 100px;height: 34px;background: #fff;border: 1px solid #dddddd;border-top: 0;position: absolute;padding-left: 11px;padding-top: 7px;box-shadow: 3px 3px 10px #909090;z-index: 10;display: none;}
+
+.head_inner2_c{position: absolute;top:30px;z-index: 10;display: none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* top*/
+.top_inner{padding-top: 10px;overflow: hidden;}
+.top_inner>a{display: block;float: left;}
+
+
+.search{border:2px solid #459d36;width: 390px;padding-left: 10px;float: left;margin: 30px 0 0 100px;}
+.search input{border: 0;height: 30px;width: 390px;}
+
+
+.searchBtn{float: left;margin-top: 30px;}
+.searchBtn a{width: 74px;height: 36px;background: #459D36;text-align: center;line-height: 36px;display: block;color: #fff;}
+
+
+
+.Hot{margin-top: 75px;margin-left: -480px;float: left;}
+.Hot>li{float: left;line-height: 14px;}
+.Hot>li>a{font-size: 11px;color: #999999;}
+.Hot>li:nth-child(3),.Hot>li:nth-child(5),.Hot>li:nth-child(7),.Hot>li:nth-child(9){height: 14px;width: 1px;background: #999999;margin-left: 10px;margin-right: 10px;}
+.Hot>li:nth-child(2){margin-left: 5px;}
+.Hot>li:nth-child(2) a{color: #FF0000;}
+
+
+.Number{margin-left: 60px;margin-top: 30px;float: left;}
+
+.Shopping{float: right;margin-top: 23px;position: relative;}
+.Shopping>a{position: absolute;top:10px;left: 50px;}
+.Shopping>a>span{color: #FF0000;}
+
+
+
+
+/* nav */
+
+.nav_inner1>a{width: 112px;height: 32px;border: 1px solid #e1e1e1;display: block;line-height: 32px;float: left;font-size: 15px;}
+.nav_inner1>a>p{float: left;width: 35px;height: 15px;margin-left: 29px;}
+.nav_inner1>a>i{background: url('http://static.epetbar.com/static_web/pc/dist/images/background/bg2.png') -17px -1255px no-repeat;width: 17px;height: 15px;display: block;float: left;margin-left: 3px;margin-top: 9px;}
+
+.nav_inner2>a{width: 112px;height: 32px;border: 1px solid #e1e1e1;display: block;line-height: 32px;float: left;font-size: 15px;}
+.nav_inner2>a>p{float: left;width: 65px;height: 15px;margin-left: 15px;}
+.nav_inner2>a>i{background: url('http://static.epetbar.com/static_web/pc/dist/images/background/bg2.png') -17px -1276px no-repeat;width: 13px;height: 7px;display: block;float: left;margin-top: 14px;}
+
+.nav_inner3>li{float: left; display: inline;line-height: 34px;font-size: 16px;color: #000;font-weight: 700;padding: 0 25px;
+text-decoration: none;outline: 0;height: 34px;}
+
+.nav_inner3>li>a{font-size: 16px;color: #333333;font-weight: 700;}
+.nav_inner3>li>i{background: url('http://static.epetbar.com/static_web/pc/dist/images/background/bg2.png') -33px -1280px no-repeat;width: 15px;height: 17px;display: block;float: left;margin-top: 9px;margin-right: 5px;}
+
+.nav{border-bottom: 3px solid #357e34;}
+
+
